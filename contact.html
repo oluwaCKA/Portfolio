@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="icon" type="image/png"sizes="50x50" href="./images/CKA.svg"/>
+  <title>replit</title>
+  <script src="https://kit.fontawesome.com/3ea4554d7e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!--     <link rel="stylesheet" href="Styles.css"> -->
+</head>
+
+<body>
+  <header>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class=navbar__container>
+        <a href="#" id="navbar__logo"><img src="./images/CKA.svg" class="navbar-img">Segun</a>
+        <ul class=navbar__menu>
+          <li class="navbar__item">
+            <a href="./index.html#home" class="nav__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./index.html#about" class="nav__links">About Me</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./index.html#project" class="nav__links">Project</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./Segun Okedele Resume.pdf" download="segunokedele" class="nav__links">Download CV</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="nav__links">Contact Us</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./index.html#services" class="nav__links"><button class="navbar__btn">Services</button></a>
+          </li>
+        </ul>
+
+         <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Contact Me Section -->
+    <div class="contact-us__container">
+      <div class="contact-us__wrapper">
+        <h1 class="contact_heading">Contact Me</h1>
+        <div class="description">
+          <p><i class="fa-solid fa-location-dot"></i>Address: 5, Adekunle Adebayo Close, Coker Estate, Arije, Dalemo-Alakuko, Lagos</p>
+          <p><i class="fa-solid fa-envelope"></i> Email: hokedelepelumy@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> Phone: +2348100704176</p>
+          <p class="contact_description">Need to get in touch with me? Please fill out the form with your inquiry</p>
+        </div>
+
+      </div>
+
+      <form action="https://formspree.io/f/xoqzayea" method="POST" id="myform">
+        <div class="names">
+          <label for="name">
+            <p>Name<sup>*</sup></p>
+            <input type="text" id="name" name="Name" required>
+          </label>
+
+          <label for="phone">
+            <p>Phone No</p>
+            <input type="phone" id="phone" name="Phone" required>
+          </label>
+        </div>
+
+
+        <label for="email">
+          <p>Email<sup>*</sup></p>
+          <input type="email" name="Email" id="email" placeholder="example@email.com" required>
+        </label>
+
+        <label for="message">
+          <p>What can we do for you?</p>
+          <textarea name="Message" id="message" cols="40" rows="5"></textarea>
+        </label><br>
+
+        <button type="submit" class="contact-us-btn">Submit</button>
+      </form>
+
+    </div>
+  </main>
+
+  <footer class="footer_container contact-footer">
+    <div class="footer-wrapper">
+      <div class="footer_icons">
+        <a href="https://facebook.com/okedele.c.segun" target="_blank"><i class="fa-brands fa-facebook icon"></i></a>
+        <a href="https://twitter.com/@oluwa_CKA" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+        <a href="https://instagram.com/oluwa_cka" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+        <a href="https://github.com/oluwaCKA" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+      </div>
+      <section>
+        <div class="footer__logo">
+          <p class="attribution"><a href="./index.html#home"><img src="./images/CKA.svg" class="footer-img">Segun</a><span> © Segun Okedele
+              2022. All rights reserved</span></p>
+        </div>
+      </section>
+    </div>
+
+  </footer>
+  <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+
+  <!-- <script>
+    function sendEmail() {
+    Email.send({
+      Host : "smtp.gmail.com",
+      Username : "segunokedele95@gmail.com",
+      Password : "Hokedele95",
+      To : 'segunokedele.y@gmail.com',
+      From : document.getElementById("email").value,
+      Subject : "New Contact Form Enquiry",
+      Body : "Name: " + document.getElementById("name").value
+          + "<br> Phone no: " + document.getElementById("phone").value
+          + "<br> Email: " + document.getElementById("email").value
+          + "<br> Message: " + document.getElementById("message").value
+  }).then(
+    message => alert('Message sent successfully')
+  );
+}  
+  </script> -->
+
+  <script src="index.js"></script>
+  
+</body>
+
+</html>
