@@ -16,6 +16,6 @@ The resume section of this website includes a list of my qualifications and expe
 
 ## Contact 
 
-If you would like to get in touch with me, please use the contact form on my website. You can also email me directly at [email address].
+If you would like to get in touch with me, please use the contact form on my website. You can also email me directly at segunokedele95@gmail.com.
 
 Thanks for visiting my portfolio website!
