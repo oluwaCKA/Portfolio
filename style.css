@@ -722,7 +722,12 @@ textarea {
 
 @media screen and (max-width: 375px) {
     .contact-us__container {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
         padding-top: 5rem;
+    }
+    .contact-footer {
+        margin-top: 5rem;
     }
  .contact-footer .footer_icons{
     margin-top: 3rem;  
@@ -914,7 +919,11 @@ footer {
         margin-top: 3rem;
         margin-bottom: -5rem;
     }
-
+    
+    .footer_container {
+        margin-top: 8rem;
+    }
+    
 }
 
 /* #preloader {
