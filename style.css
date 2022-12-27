@@ -485,6 +485,11 @@
     }
     
   }
+    @media screen and (max-width: 375px){
+        .about-me__container {
+            margin-bottom: 3rem;
+        }
+    }
 
   
 }
@@ -695,6 +700,8 @@ textarea {
   .contact-footer {
     margin-top: 10rem;
   }
+    
+  
 }
 
 @media screen and (max-width: 700px) {
@@ -710,6 +717,17 @@ textarea {
   .contact-footer {
     margin-top: 13rem;
   }
+  
+}
+
+@media screen and (max-width: 375px) {
+    .contact-us__container {
+        padding-top: 5rem;
+    }
+ .contact-footer .footer_icons{
+    margin-top: 3rem;  
+    margin-bottom: -5rem;   
+  }    
 }
 
 
@@ -889,6 +907,14 @@ footer {
     justify-content: center;
     margin-left: 2rem;
   }
+}
+
+@media screen and (max-width: 375px){
+    .footer_icons{
+        margin-top: 3rem;
+        margin-bottom: -5rem;
+    }
+
 }
 
 /* #preloader {
